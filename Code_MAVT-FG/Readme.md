@@ -2,7 +2,7 @@
 
 This repository is the **anonymous** Pytorch implementation of the MAVT-FG method.
 
-![overview](.\imgs\overview.png)
+![svg](ACMMM2022_anonymous/Code_MAVT-FG/imgs/FGB-AV.png)
 
 ## Main Idea
 
@@ -15,7 +15,7 @@ This repository is the **anonymous** Pytorch implementation of the MAVT-FG metho
 
 ## Fine-grained Birds of Audio-Visual (FGB-AV)
 
-![FGB-AV](.\imgs\FGB-AV.png)
+![svg](ACMMM2022_anonymous/Code_MAVT-FG/imgs/FGB-AV.png)
 
 
 
