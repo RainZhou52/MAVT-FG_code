@@ -2,7 +2,7 @@
 
 This repository is the **anonymous** Pytorch implementation of the MAVT-FG method.
 
-![svg](Code_MAVT-FG/imgs/FGB-AV.png)
+![svg](Code_MAVT-FG/imgs/overview.png)
 
 ## Main Idea
 
@@ -25,7 +25,7 @@ This repository is the **anonymous** Pytorch implementation of the MAVT-FG metho
 
 ## Visualization
 
-![svg](C:\Users\Lenovo\Desktop\MM2022 论文写作\pic\visualize2-16495940374171.svg)
+![svg](Code_MAVT-FG/imgs/FGB-AV.png)
 
 
 
