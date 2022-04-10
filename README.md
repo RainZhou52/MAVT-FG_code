@@ -47,3 +47,4 @@ This repository is the **anonymous** Pytorch implementation of the MAVT-FG metho
 ### Training & Testing
 
 > * Training
+> > python train.py 
