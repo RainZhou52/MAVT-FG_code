@@ -15,11 +15,11 @@ This repository is the **anonymous** Pytorch implementation of the MAVT-FG metho
 
 ## Fine-grained Birds of Audio-Visual (FGB-AV)
 
-![png](C:\Users\Lenovo\Desktop\MM2022 论文写作\pic\屏幕截图 2022-04-10 203206.png)
+![png](Code_MAVT-FG/imgs/Result.png)
 
 ## The State-of-the-art Performance
 
-![png](C:\Users\Lenovo\Desktop\MM2022 论文写作\pic\屏幕截图 2022-04-10 203229.png)
+![png](Code_MAVT-FG/imgs/Result.png)
 
 
 
