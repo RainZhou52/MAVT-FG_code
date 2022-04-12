@@ -42,7 +42,7 @@ This repository is the **anonymous** Pytorch implementation of the MAVT-FG metho
 ### Data Preparation
 
 > * Our benchmark FGB-AV is provided in this repo
-> * Download the raw data from [PKU-XMedia](http://59.108.48.34/tiki/FGCrossNet)
+> * Download the raw data from [PKU FG-XMedia](http://59.108.48.34/tiki/FGCrossNet)
 
 ### Training & Testing
 
