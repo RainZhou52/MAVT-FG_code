@@ -165,7 +165,7 @@ class MAVT_FG(nn.Module):
         part_num_va, part_inx_va = self.Search(weight_list_v, weight_list_a)
         part_inx_va = part_inx_va + 1
         parts_va = []
-        B, num = part_inx_va.shape  # num即为heads的个数
+        B, num = part_inx_va.shape  
         for i in range(B):
             parts_va.append(xy[i, part_inx_va[i, :]])  # hidden_states[i, part_inx[i,:]]：[B,num_heads]
         parts_va = torch.stack(parts_va).squeeze(1)
