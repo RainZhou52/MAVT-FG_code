@@ -23,7 +23,9 @@ This repository is the **anonymous** Pytorch implementation of the MAVT-FG metho
 
 
 
-## Visualization
+## Dataset and Visualization
+
+![png](Code_MAVT-FG/imgs/data.png)
 
 ![svg](Code_MAVT-FG/imgs/visualize.svg)
 
