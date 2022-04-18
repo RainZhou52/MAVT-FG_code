@@ -9,7 +9,7 @@ This repository is the **anonymous** Pytorch implementation of the MAVT-FG metho
 1. In this work, we are the first to introduce audio-visual multimodal to fine-grained recognition at video-level.
 2. We introduce a novel framework MAVT-FG which enables the capture of discriminative regions in real-world videos. MAVT-FG contains a Dual-Encoder for feature extraction, DAVF for audio-visual fusion and SSFG for searching and selecting fine-grained parts. The proposed audio-visual deep neural network can obtain a large improvement over the traditional unimodal system and other multimodal fine-grained methods. 
 
-3. A new benchmark dataset FGB-AV for weakly-supervised fine-grained recognition at video-level is proposed, which includes 7k pairs of high-quality video clips and corresponding audio tracks for 30 subcategories of birds.
+3. A new benchmark dataset FGB-AV for weakly-supervised fine-grained recognition at video-level is proposed, which includes over 10k pairs of high-quality video clips and corresponding audio tracks for 45 subcategories of birds.
 
 
 
