@@ -5,9 +5,9 @@ from tqdm import tqdm
 import torch.nn.functional as F
 
 def train_one_epoch(model, optimizer, data_loader, device, epoch, loss_weight=1.):
-    recall = torchmetrics.Recall(average='none', num_classes=10)
-    precision = torchmetrics.Precision(average='none', num_classes=10)
-    f1 = torchmetrics.F1Score(average='none', num_classes=10)
+    recall = torchmetrics.Recall(average='none', num_classes=45)
+    precision = torchmetrics.Precision(average='none', num_classes=45)
+    f1 = torchmetrics.F1Score(average='none', num_classes=45)
 
     recall.to(device)
     precision.to(device)
@@ -68,8 +68,8 @@ def train_one_epoch(model, optimizer, data_loader, device, epoch, loss_weight=1.
 
 @torch.no_grad()
 def evaluate(model, data_loader, device, epoch, loss_weight=1.):
-    recall = torchmetrics.Recall(average='none', num_classes=10)
-    precision = torchmetrics.Precision(average='none', num_classes=10)
+    recall = torchmetrics.Recall(average='none', num_classes=45)
+    precision = torchmetrics.Precision(average='none', num_classes=45)
     f1 = torchmetrics.F1Score(average='none', num_classes=10)
 
     recall.to(device)
